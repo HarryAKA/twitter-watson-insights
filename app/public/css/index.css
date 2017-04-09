@@ -37,6 +37,7 @@ a:hover, a:focus {
 
 .img-container.main-logo {
   width: 100%;
+  height: auto;
 }
 
 .sub-text h4 {
