@@ -22,17 +22,17 @@ module.exports = {
 
   // Personality Insights credentials
   personality_insights: {
-    url: '<url>',
-    username: '<username>',
-    password: '<password>',
+    url: 'https://gateway.watsonplatform.net/personality-insights/api',
+    username: '090c5456-b3bc-4d1a-a9b4-8c62f3f822d1',
+    password: 'pKqtgT20keDI',
     version: 'v2'
   },
 
   // Twitter app credentials: https://apps.twitter.com/app
   twitter: process.env.TWITTER ? JSON.parse(process.env.TWITTER) : [{
-    consumer_key: '<consumer_key>',
-    consumer_secret: '<consumer_secret>',
-    access_token_key: '<access_token_key>',
-    access_token_secret: '<access_token_secret>'
+    consumer_key: 'uF6j3uf23WdCuwwiIzSMxoSLZ',
+    consumer_secret: 'r2OEVMxblATg1ORtuNtLWboG4wYQfoonaYhtPfYhZEBuvpAkn4',
+    access_token_key: '11317192-h5RosUQ96Dor67JoMK29WSVaVCMQTwDRLOCRbWqA7',
+    access_token_secret: 'K7GCqrvQwhyHJO99W3nCsrxW9SDEUYKADeXE9F99R6wrg'
   }]
 };
