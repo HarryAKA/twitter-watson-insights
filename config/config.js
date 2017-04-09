@@ -28,6 +28,15 @@ module.exports = {
     version: 'v2'
   },
 
+  // Tone Analyzer credentials
+  tone_analyzer: {
+    url: 'https://gateway.watsonplatform.net/tone-analyzer/api',
+    username: '66853657-ce00-4264-99db-e26e31e490f0',
+    password: '4KkGAJsxsn5L',
+    version: 'v3',
+    version_date: '2016-05-19'
+  },
+
   // Twitter app credentials: https://apps.twitter.com/app
   twitter: process.env.TWITTER ? JSON.parse(process.env.TWITTER) : [{
     consumer_key: 'uF6j3uf23WdCuwwiIzSMxoSLZ',

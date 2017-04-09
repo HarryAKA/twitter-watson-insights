@@ -56,6 +56,9 @@ var twit = new TwitterHelper(config.twitter);
 // Create the personality insights service
 var personality_insights = new watson.personality_insights(config.personality_insights);
 
+// Create the tone analyzer service
+var tone_analyzer = new watson.tone_analyzer(config.tone_analyzer);
+
 // Make the services accessible to the router
 app.use(function(req,res,next){
   req.twit = twit;
